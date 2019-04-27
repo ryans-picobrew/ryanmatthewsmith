@@ -7,26 +7,127 @@ body {
 .home--container {
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   color: #fff;
+  text-align: center;
+  line-height: 1.2;
 }
 
 
 .home--title {
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 2.0rem;
+  font-weight: 1000;
+  letter-spacing: .2rem;
+
 }
 
 .home--redesign {
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
+  margin: 1rem 0 .75rem;
 }
 
 .home--coming {
   display: flex;
   justify-content: center;
+  margin: .5rem 0;
+}
+
+a.link {
+  text-decoration: none;
+  color: #78baf0
+}
+a.link:hover{
+  text-decoration: none;
+  color: #b5d3ec
 }
 
 
+.home--cta {
+  margin: 5rem 0 1.6rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.home-contact--email{
+  width: 100%;
+  text-align: center;
+}
+.home-contact--button {
+  margin: 1.4rem 2rem;
+  text-decoration: none;
+  min-width: 200px;
+  max-width: 450px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  background: #3397e9;
+  padding: .75rem 3rem;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+.home-contact--button:hover{
+  background: #1565c0;
+}
+
+@media screen and (min-width: 412px)
+{
+  .home--title {
+    margin-top: 8rem;
+    font-size: 2.2rem;
+    letter-spacing: .3rem;
+  }
+  .home--cta {
+    margin: 9rem 0 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px)
+{
+  .home--title {
+    font-size: 2.8rem;
+  }
+  
+  .home--redesign {
+    font-size: 1.8rem;
+  }
+  
+  .home--coming {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 1000px)
+{
+  .home--title {
+    margin-top: 9rem;
+    font-size: 3.2rem;
+    letter-spacing: .4rem;
+  }
+  
+  .home--redesign {
+    font-size: 2.0rem;
+  }
+  
+  .home--coming {
+    font-size: 1.6em;
+  }
+
+  .home--cta {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
