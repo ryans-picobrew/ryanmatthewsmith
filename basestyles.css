@@ -10,7 +10,6 @@ body {
 .home--container {
   width: 100%;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   margin: 0 auto;
   color: #222;
   text-align: center;
@@ -36,7 +35,7 @@ body {
 }
 
 .home--subtitle {
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
   font-size: calc(.45rem + 2.5vw);
 }
